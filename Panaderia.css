@@ -3,7 +3,7 @@
 }
 
 #Titulo {
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-family: sans-serif;
     text-align: center;
 }
 
@@ -16,7 +16,7 @@
     display: flex;
     gap: 10px;
     justify-self: center;
-    border: 3px solid rgb(241, 202, 71);
+    border: 4px solid rgb(241, 202, 71);
     border-radius: 20px;
     padding: 5px;
     background-color: #d1c347;
