@@ -11,3 +11,24 @@
     display: block;
     margin: 0 auto;
 }
+
+.LoQueHacemos {
+    display: flex;
+    gap: 10px;
+    justify-self: center;
+    border: 3px solid rgb(243, 202, 68);
+    border-radius: 20px;
+    padding: 5px;
+    background-color: #d1c347;
+}
+
+.LoQueHacemos img {
+    width: 150px;
+    height: auto;
+    border-radius: 10px;
+    object-fit: cover;
+}
+
+.LoQueHacemos:hover {
+    border: 5px black;
+}
