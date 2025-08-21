@@ -32,3 +32,8 @@
 .LoQueHacemos:hover {
     border: 6px black;
 }
+
+#bienvenida {
+    font-family: sans-serif;
+    text-align: center;
+}
