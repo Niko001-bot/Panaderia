@@ -1,0 +1,13 @@
+#FondoPrincipal {
+    background-color: rgb(241, 241, 89);
+}
+
+#Titulo {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+}
+
+.Lime {
+    display: block;
+    margin: 0 auto;
+}
