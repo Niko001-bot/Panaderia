@@ -14,7 +14,7 @@
 
 .LoQueHacemos {
     display: flex;
-    gap: 10px;
+    gap: 25px;
     justify-self: center;
     border: 4px solid rgb(241, 202, 71);
     border-radius: 20px;
@@ -23,17 +23,52 @@
 }
 
 .LoQueHacemos img {
-    width: 150px;
+    max-width: 200px;
     height: auto;
     border-radius: 10px;
-    object-fit: cover;
-}
-
-.LoQueHacemos:hover {
     border: 6px black;
+    object-fit: cover;
 }
 
 .subtítulo {
     font-family: sans-serif;
     text-align: center;
+}
+
+.Ver-catalogo {
+    border: 2px solid rgb(241, 202, 71);
+    background-color: rgb(247, 198, 109);
+    color: rgb(88, 54, 3);
+    padding: 5px 12px;
+    border-radius: 7px;
+    text-decoration: none;
+    font-size: 25px;
+    transition: all 0.3s;
+    display: block;
+    width: fit-content;
+    margin: 20px auto;
+}
+
+.Ver-catalogo:hover {
+    background-color: rgb(88, 54, 3);
+    color: rgb(247, 198, 109);
+}
+
+.footer {
+    background-color: rgb(241, 241, 89);
+    text-align: center;
+    padding: 20px 0;
+    /* arriba 30px para espacio de los limones */
+}
+
+.limones-footer {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 60px;
+    margin-bottom: 10px;
+    /* margen a los lados */
+}
+
+.limones-footer img {
+    width: 50px;
 }
