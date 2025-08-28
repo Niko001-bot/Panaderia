@@ -16,6 +16,8 @@ body {
 
 header {
     position: fixed;
+    border: 0.5px solid rgb(0, 0, 0);
+    background-color: #eba729;
     top: 0;
     left: 0;
     width: 100%;
@@ -135,17 +137,93 @@ header .logo img {
 }
 
 .footer {
-    background-color: rgb(241, 241, 89);
     text-align: center;
-    padding: 20px 0;
-    /* arriba 30px para espacio de los limones */
+    padding: 20px 50px;
+    position: relative;
+    width: 100%;
+    min-height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.social-icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    margin: 10px 5px;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+
+.social-icon,
+.menu {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+.icon-elem {
+    list-style: none;
+}
+
+.icon {
+    color: rgb(107, 90, 13);
+    font-size: 32px;
+    display: inline-block;
+    margin: 0 10px;
+    transition: 0.5s;
+}
+
+.icon:hover {
+    transform: translateY(-10px);
+}
+
+.menu {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    align-items: center;
+    margin: 10px 0;
+    flex-wrap: wrap;
+}
+
+.menu-elem {
+    list-style: none;
+}
+
+.menu-icon {
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+    display: inline-block;
+    text-decoration: none;
+    margin: 5px 10px;
+    opacity: 0.5;
+    transition: 0.3s;
+}
+
+.menu-icon:hover {
+    opacity: 1;
+}
+
+.text {
+    color: rgb(0, 0, 0);
+    text-align: center;
+    margin-top: 15px;
+    margin-bottom: 10px;
+    font-size: 20px;
 }
 
 .limones-footer {
     display: flex;
     justify-content: space-between;
-    padding: 0 60px;
-    margin-bottom: 10px;
+    width: 100%;
+    max-width: 800px;
+    margin: 0 auto 20px auto;
+    padding: 0 20px;
     /* margen a los lados */
 }
 
