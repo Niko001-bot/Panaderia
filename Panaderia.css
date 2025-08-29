@@ -16,12 +16,11 @@ body {
 
 header {
     position: fixed;
-    border: 0.5px solid rgb(0, 0, 0);
-    background-color: #eba729;
+    background-color: rgb(236, 203, 13);
     top: 0;
     left: 0;
     width: 100%;
-    padding: 19px 100px;
+    padding: 7px 100px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -29,9 +28,15 @@ header {
 }
 
 header .logo img {
-    height: 80px;
+    height: 90px;
     width: auto;
     display: block;
+}
+
+.navigation {
+    display: flex;
+    align-items: center;
+    gap: 90px;
 }
 
 .navigation a {
@@ -40,7 +45,31 @@ header .logo img {
     color: black;
     text-decoration: none;
     font-weight: 500;
-    margin-left: 40px;
+    margin-left: 30px;
+}
+
+.navigation a.btnLogin-popup::after {
+    display: none;
+}
+
+.btnLogin-popup {
+    border: 2px solid rgb(102, 84, 134);
+    background-color: rgb(247, 198, 109);
+    color: rgb(88, 54, 3);
+    padding: 8px 20px;
+    border-radius: 7px;
+    text-decoration: none;
+    font-size: 18px;
+    transition: all 0.3s;
+    display: block;
+    width: fit-content;
+    margin: 20px auto;
+    text-align: center;
+}
+
+.btnLogin-popup:hover {
+    background-color: rgb(88, 54, 3);
+    color: rgb(247, 198, 109);
 }
 
 .navigation a::after {
@@ -62,20 +91,9 @@ header .logo img {
     transform-origin: left;
 }
 
-.navigation .btnLogin-popup {
-    width: 130px;
-    height: 50px;
-    background: transparent;
-    border-radius: 6px;
-    cursor: pointer;
-    font-weight: 500;
-    margin-left: 40px;
-    transition: .5s;
-}
-
 .navigation .btnLogin-popup:hover {
     background: rgb(102, 84, 134);
-    color: black;
+    color: solid black;
 }
 
 #FondoPrincipal {
