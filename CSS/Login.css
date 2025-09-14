@@ -10,7 +10,7 @@ body {
     justify-content: center;
     align-items: center;
     min-height: 100vh;
-    background: url(/Trabajo_Anual_de_Widi/Imagenes_de_la_web/2frutas.png) no-repeat;
+    background: url(../Imagenes_de_la_web/2frutas.png) no-repeat;
     background-size: cover;
     background-position: center;
     flex-direction: column;
@@ -55,6 +55,9 @@ header .logo img {
     text-decoration: none;
     font-weight: 500;
     margin-left: 30px;
+    font-family: "Pacifico", cursive;
+    font-weight: 400;
+    font-style: normal;
 }
 
 .navigation a.btnLogin-popup::after {
@@ -169,6 +172,14 @@ header .logo img {
     border-bottom-left-radius: 20px;
     cursor: pointer;
     z-index: 1;
+}
+
+.wrapper h2,
+a,
+p {
+    font-family: "Pacifico", cursive;
+    font-weight: 400;
+    font-style: normal;
 }
 
 .form-box h2 {
