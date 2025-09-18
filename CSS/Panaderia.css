@@ -181,7 +181,7 @@ h1 {
 
 .wrapperA {
     width: 1100px;
-    height: 400px;
+    height: 450px;
     background: transparent;
     border: 2px solid rgb(102, 84, 134);
     border-radius: 20px;
@@ -270,6 +270,55 @@ h1 {
 }
 
 .Tpavlova {
+    border: 3px solid rgb(17, 15, 0);
+    border-radius: 25px;
+}
+
+
+/*Lemon PIe*/
+
+.wrapperLP {
+    width: 1100px;
+    height: 450px;
+    background: transparent;
+    border: 2px solid rgb(102, 84, 134);
+    border-radius: 20px;
+    backdrop-filter: blur(20px);
+    box-shadow: 0 0 30px rgb(0, 0, 0);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+.wrapperLP .box-LimonP {
+    width: 100%;
+    height: auto;
+}
+
+.box-LimonP h2 {
+    font-size: 2em;
+    color: black;
+    text-align: center;
+    margin-bottom: 50px;
+    font-family: "Pacifico", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.LemonPie p {
+    font-family: "Caprasimo", serif;
+    font-weight: 400;
+    font-style: normal;
+    color: rgb(54, 53, 53);
+    text-align: center;
+    margin-bottom: 30px;
+    font-size: 20px;
+    padding: 0 40px;
+}
+
+.Tlemonpie {
     border: 3px solid rgb(17, 15, 0);
     border-radius: 25px;
 }
