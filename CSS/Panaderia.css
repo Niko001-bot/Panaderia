@@ -177,6 +177,7 @@ h1 {
     font-style: normal;
     text-align: center;
     margin: 25px;
+    -webkit-text-stroke: 0.2px rgb(248, 209, 33);
 }
 
 .wrapperA {
@@ -192,11 +193,8 @@ h1 {
     justify-content: center;
     align-items: center;
     overflow: hidden;
-}
-
-.wrapperA .box-Arandanos {
-    width: 100%;
-    height: auto;
+    width: 1100px;
+    margin: 40px auto;
 }
 
 .box-Arandanos h2 {
@@ -241,11 +239,8 @@ h1 {
     justify-content: center;
     align-items: center;
     overflow: hidden;
-}
-
-.wrapperP .box-Pavlova {
-    width: 100%;
-    height: auto;
+    width: 1100px;
+    margin: 40px auto;
 }
 
 .box-Pavlova h2 {
@@ -290,11 +285,8 @@ h1 {
     justify-content: center;
     align-items: center;
     overflow: hidden;
-}
-
-.wrapperLP .box-LimonP {
-    width: 100%;
-    height: auto;
+    width: 1100px;
+    margin: 40px auto;
 }
 
 .box-LimonP h2 {
@@ -339,11 +331,8 @@ h1 {
     justify-content: center;
     align-items: center;
     overflow: hidden;
-}
-
-.wrapperPF .box-PetitFour {
-    width: 100%;
-    height: auto;
+    width: 1100px;
+    margin: 40px auto;
 }
 
 .box-PetitFour h2 {
