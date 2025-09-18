@@ -165,6 +165,63 @@ h3 {
     color: rgb(247, 198, 109);
 }
 
+
+/* Historias de nuestras recetas*/
+
+h1 {
+    font-family: "Pacifico", cursive;
+    font-weight: 400;
+    font-style: normal;
+    text-align: center;
+    margin: 25px;
+}
+
+.wrapperA {
+    width: 1100px;
+    height: 400px;
+    background: transparent;
+    border: 2px solid rgb(102, 84, 134);
+    border-radius: 20px;
+    backdrop-filter: blur(20px);
+    box-shadow: 0 0 30px rgb(0, 0, 0);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+.wrapper .box-Arandanos {
+    width: 100%;
+    height: auto;
+}
+
+.box-Arandanos h2 {
+    font-size: 2em;
+    color: black;
+    text-align: center;
+    margin-bottom: 50px;
+    font-family: "Pacifico", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.Arandanos p {
+    font-family: "Caprasimo", serif;
+    font-weight: 400;
+    font-style: normal;
+    color: rgb(54, 53, 53);
+    text-align: center;
+    margin-bottom: 30px;
+    font-size: 20px;
+    padding: 0 40px;
+}
+
+.Tarandanos {
+    border: 3px solid rgb(17, 15, 0);
+    border-radius: 25px;
+}
+
 .footer {
     text-align: center;
     padding: 20px 50px;
