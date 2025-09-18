@@ -171,13 +171,13 @@ h3 {
 
 /*Arandanos*/
 
-h1 {
+#HistoriaSL {
     font-family: "Pacifico", cursive;
     font-weight: 400;
     font-style: normal;
     text-align: center;
     margin: 25px;
-    -webkit-text-stroke: 0.2px rgb(248, 209, 33);
+    -webkit-text-stroke: 0.2px #000000;
 }
 
 .wrapperA {
@@ -320,7 +320,7 @@ h1 {
 
 .wrapperPF {
     width: 1100px;
-    height: 450px;
+    height: 460px;
     background: transparent;
     border: 2px solid rgb(102, 84, 134);
     border-radius: 20px;
