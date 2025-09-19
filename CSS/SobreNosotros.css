@@ -10,7 +10,7 @@ body {
     justify-content: center;
     align-items: center;
     min-height: 100vh;
-    background: url(../Imagenes_de_la_web/2frutas.png) no-repeat;
+    background: url(../Imagenes_de_la_web/fondo3xdd.jpg) no-repeat;
     background-size: cover;
     background-position: center;
     flex-direction: column;
@@ -270,6 +270,10 @@ header .logo img {
     margin: 0 auto 20px auto;
     padding: 0 20px;
     /* margen a los lados */
+}
+
+.footer {
+    background-color: #f8c008;
 }
 
 .limones-footer img {
