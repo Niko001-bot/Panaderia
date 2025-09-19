@@ -9,7 +9,7 @@ body {
     justify-content: center;
     align-items: center;
     min-height: 100vh;
-    background: url(../Imagenes_de_la_web/2frutas.png) no-repeat;
+    background: url(../Imagenes_de_la_web/fondo3xdd.jpg);
     background-size: cover;
     background-position: center;
 }
@@ -103,7 +103,7 @@ header .logo img {
 /* desde aca titulo*/
 
 #FondoPrincipal {
-    background-color: rgb(241, 241, 89);
+    background-color: rgb(250, 238, 129);
     margin-top: 130px;
 }
 
@@ -121,6 +121,7 @@ header .logo img {
 }
 
 .LoQueHacemos {
+    /*hice cMBIO ACAAA*/
     display: flex;
     gap: 25px;
     justify-self: center;
@@ -142,6 +143,9 @@ h3 {
     font-style: normal;
     text-align: center;
 }
+
+
+/*desde aca*/
 
 .Ver-catalogo {
     border: 2px solid rgb(102, 84, 134);
@@ -441,6 +445,10 @@ h3 {
     margin: 0 auto 20px auto;
     padding: 0 20px;
     /* margen a los lados */
+}
+
+.footer {
+    background-color: #f8c008;
 }
 
 .limones-footer img {
