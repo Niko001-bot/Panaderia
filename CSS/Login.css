@@ -19,7 +19,7 @@ body {
 hr {
     width: 100%;
     border: none;
-    border-top: 2px solid grey;
+    border-top: 2px solid rgb(219, 187, 3);
     margin: 40 px 0;
 }
 
@@ -115,7 +115,6 @@ header .logo img {
     width: 400px;
     height: 440px;
     background: transparent;
-    border: 2px solid rgb(102, 84, 134);
     border-radius: 20px;
     backdrop-filter: blur(20px);
     box-shadow: 0 0 30px rgb(0, 0, 0);
@@ -474,7 +473,7 @@ p {
 }
 
 .footer {
-    background-color: #f8c008;
+    background-color: rgb(236, 203, 13);
 }
 
 .limones-footer img {
