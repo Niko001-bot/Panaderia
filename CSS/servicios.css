@@ -1,0 +1,136 @@
+body {
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  background-color: #DDC3C3;
+  color: #5c4b00;
+}
+
+/* Header */
+header {
+  background-color: #fff9e6;
+  border-bottom: 2px solid #f3d47a;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  padding: 15px 0;
+}
+
+.header-container {
+  width: 90%;
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logo-container {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.logo-img {
+  height: 55px;
+}
+
+.logo-container h1 {
+  font-family: 'Pacifico', cursive;
+  color: #f7b500;
+  margin: 0;
+}
+
+.navigation a {
+  margin: 0 10px;
+  text-decoration: none;
+  color: #5c4b00;
+  font-weight: bold;
+}
+
+.navigation a:hover,
+.navigation .activo {
+  color: #f7b500;
+}
+
+/* Sección de servicios */
+.servicios-section {
+  text-align: center;
+  padding: 50px 20px;
+}
+
+.servicios-section h2 {
+  font-family: 'Pacifico', cursive;
+  font-size: 2rem;
+  color: #f7b500;
+}
+
+.opciones {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 40px;
+  margin-top: 40px;
+}
+
+.opcion {
+  background-color: #fff9e6;
+  border: 2px solid #f3d47a;
+  border-radius: 15px;
+  width: 250px;
+  padding: 20px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  transition: transform 0.3s ease;
+}
+
+.opcion:hover {
+  transform: translateY(-5px);
+}
+
+.opcion img {
+  width: 80px;
+  height: 80px;
+}
+
+.opcion h3 {
+  margin-top: 15px;
+  color: #5c4b00;
+}
+
+.opcion button {
+  margin-top: 15px;
+  background-color: #f7b500;
+  border: none;
+  padding: 10px 20px;
+  color: white;
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.opcion button:hover {
+  background-color: #e5a000;
+}
+
+.resultado {
+  margin-top: 40px;
+  font-size: 1.2rem;
+  color: #5c4b00;
+}
+
+/* Sección adicional */
+.extra-info {
+  background-color: #fff9e6;
+  padding: 40px 20px;
+  text-align: center;
+}
+
+.extra-info h2 {
+  font-family: 'Pacifico', cursive;
+  color: #f7b500;
+}
+
+footer {
+  background-color: #fff9e6;
+  border-top: 2px solid #f3d47a;
+  text-align: center;
+  padding: 15px;
+  color: #5c4b00;
+}
