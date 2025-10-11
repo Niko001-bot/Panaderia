@@ -231,9 +231,9 @@ header .logo img {
     padding: 15px;
     border-radius: 0 15px 15px 0;
     box-shadow: 0 0 10px rgb(102, 84, 134);
-    opacity: 0;
-    transform: translateX(10px);
-    transition: all 0.4s ease;
+    opacity: 1;
+    transform: translateX(0);
+    transition: none;
 }
 
 .info-text h2 {
@@ -297,9 +297,9 @@ header .logo img {
     padding: 15px;
     border-radius: 0 15px 15px 0;
     box-shadow: 0 0 10px rgb(102, 84, 134);
-    opacity: 0;
-    transform: translateX(10px);
-    transition: all 0.4s ease;
+    opacity: 1;
+    transform: translateX(0);
+    transition: none;
 }
 
 .Cupcake_banana h2 {
