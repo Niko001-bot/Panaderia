@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Sweet Lime - Servicios</title>
+  <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../CSS/servicios.css">
+</head>
+<body>
+
+  <header>
+    <div class="header-container">
+      <div class="logo-container">
+        <img src="../Imagenes_de_la_web/limon2_2.0.png" alt="Logo Sweet Lime" class="logo-img">
+        <h1>Sweet Lime</h1>
+      </div>
+      <nav class="navigation">
+        <a href="../HTML/Panaderia.html">Inicio</a>
+        <a href="../HTML/SobreNosotros.html">Sobre</a>
+        <a href="../HTML/Servicios.html" class="activo">Servicios</a>
+        <a href="https://wa.me/542994617168">Contacto</a>
+        <a href="../HTML/Login.index.html">Registrarse</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="servicios-section">
+      <h2>Opciones de entrega</h2>
+      <p>Elegí cómo querés recibir tus pedidos:</p>
+
+      <div class="opciones">
+        <div class="opcion">
+          <img src="../Imagenes_de_la_web/domicilio.png" alt="Entrega a domicilio">
+          <h3>Entrega a domicilio</h3>
+          <p>Recibí tus productos en casa de forma rápida y segura.</p>
+          <button onclick="calcularPrecio('domicilio')">Seleccionar</button>
+        </div>
+
+        <div class="opcion">
+          <img src="../Imagenes_de_la_web/retirolocal.png" alt="Retiro en panadería">
+          <h3>Retiro en panadería</h3>
+          <p>Pasá a retirar tu pedido por nuestro local y ahorrá el costo de envío.</p>
+          <button onclick="calcularPrecio('retiro')">Seleccionar</button>
+        </div>
+      </div>
+
+      <div class="resultado">
+        <h3>Precio aproximado del pedido:</h3>
+        <p id="precio">—</p>
+      </div>
+    </section>
+
+    <section class="extra-info">
+      <h2>¿Cómo funciona?</h2>
+      <p>
+        Realizá tu pedido a través de nuestro catálogo y elegí el método de entrega que prefieras.  
+        Si optás por el envío a domicilio, te llegará un mensaje para confirmar la dirección.  
+        Si preferís el retiro, te avisaremos cuando tu pedido esté listo.
+      </p>
+    </section>
+  </main>
+
+  <footer>
+    <p>© 2025 Sweet Lime - Todos los derechos reservados</p>
+  </footer>
+
+  <script>
+    function calcularPrecio(opcion) {
+      const precioBase = 20000;
+      let total;
+
+      if (opcion === 'domicilio') {
+        total = precioBase + 2500;
+        document.getElementById('precio').textContent = `$${total} (incluye envío)`;
+      } else {
+        total = precioBase;
+        document.getElementById('precio').textContent = `$${total} (sin envío)`;
+      }
+    }
+  </script>
+
+</body>
+</html>
