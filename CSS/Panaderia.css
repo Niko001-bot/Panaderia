@@ -16,7 +16,7 @@ body {
 
 header {
     position: fixed;
-    background-color: rgb(236, 203, 13);
+    background-color: rgb(150, 130, 22);
     top: 0;
     left: 0;
     width: 100%;
@@ -56,8 +56,8 @@ header .logo img {
 }
 
 .btnLogin-popup {
-    border: 2px solid rgb(102, 84, 134);
-    background-color: rgb(247, 198, 109);
+    border: 2px solid rgb(233, 224, 247);
+    background-color: rgb(228, 219, 93);
     color: rgb(88, 54, 3);
     padding: 8px 20px;
     border-radius: 7px;
@@ -82,7 +82,7 @@ header .logo img {
     bottom: -6px;
     width: 100%;
     height: 3px;
-    background-color: rgb(102, 84, 134);
+    background-color: rgb(197, 177, 61);
     border-radius: 5px;
     transform-origin: right;
     transform: scaleX(0);
@@ -95,7 +95,7 @@ header .logo img {
 }
 
 .navigation .btnLogin-popup:hover {
-    background: rgb(102, 84, 134);
+    background: rgb(238, 238, 240);
     color: solid black;
 }
 
@@ -466,7 +466,7 @@ h2 {
 }
 
 .footer {
-    background-color: #f8c008;
+    background-color: rgb(150, 130, 22)
 }
 
 .limones-footer img {
