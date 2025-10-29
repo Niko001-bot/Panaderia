@@ -1,11 +1,10 @@
 body {
   font-family: 'Arial', sans-serif;
   margin: 0;
-  background-color: #DDC3C3;
+  background-color: #fff1b5;
   color: #5c4b00;
 }
 
-/* Header */
 header {
   background-color: #fff9e6;
   border-bottom: 2px solid #f3d47a;
