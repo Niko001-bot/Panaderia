@@ -3,3 +3,14 @@ document.addEventListener("DOMContentLoaded", () => {
   btnModal.textContent = "Holiss";
   btnModal.className = "boton-modal";
   document.body.appendChild(btnModal);
+
+  const modal = document.createElement("div");
+  modal.className = "modal-oculto";
+  modal.innerHTML = `
+    <div class="modal-contenido">
+      <span class="cerrar">&times;</span>
+      <h2>¡Hola desde Sweet Lime!</h2>
+      <p>Este mensaje aparece al hacer clic izquierdo o derecho.</p>
+    </div>
+  `;
+  document.body.appendChild(modal);
