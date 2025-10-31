@@ -27,3 +27,14 @@ document.addEventListener("DOMContentLoaded", () => {
     modal.classList.remove("modal-visible");
     modal.classList.add("modal-oculto");
   }
+
+   btnModal.addEventListener("click", () => {
+    console.log("Click izquierdo detectado");
+    mostrarModal();
+  });
+
+  btnModal.addEventListener("contextmenu", (e) => {
+    e.preventDefault();
+    console.log("Click derecho detectado");
+    mostrarModal();
+  });
