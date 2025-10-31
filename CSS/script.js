@@ -38,3 +38,9 @@ document.addEventListener("DOMContentLoaded", () => {
     console.log("Click derecho detectado");
     mostrarModal();
   });
+
+   cerrar.addEventListener("click", ocultarModal);
+  modal.addEventListener("click", (e) => {
+    if (e.target === modal) ocultarModal();
+  });
+});
