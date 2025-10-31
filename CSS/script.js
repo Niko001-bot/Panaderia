@@ -14,3 +14,10 @@ document.addEventListener("DOMContentLoaded", () => {
     </div>
   `;
   document.body.appendChild(modal);
+  const cerrar = modal.querySelector(".cerrar");
+
+  function mostrarModal() {
+    console.log("Mostrando el modal");
+    modal.classList.remove("modal-oculto");
+    modal.classList.add("modal-visible");
+  }
