@@ -21,3 +21,9 @@ document.addEventListener("DOMContentLoaded", () => {
     modal.classList.remove("modal-oculto");
     modal.classList.add("modal-visible");
   }
+
+  function ocultarModal() {
+    console.log("Cerrando el modal");
+    modal.classList.remove("modal-visible");
+    modal.classList.add("modal-oculto");
+  }
