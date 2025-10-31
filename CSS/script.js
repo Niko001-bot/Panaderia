@@ -9,8 +9,8 @@ document.addEventListener("DOMContentLoaded", () => {
   modal.innerHTML = `
     <div class="modal-contenido">
       <span class="cerrar">&times;</span>
-      <h2>¡Hola desde Sweet Lime!</h2>
-      <p>Este mensaje aparece al hacer clic izquierdo o derecho.</p>
+      <h2>Holis desde Sweet Lime!</h2>
+      <p>aprobamee 𐔌՞. .՞𐦯.</p>
     </div>
   `;
   document.body.appendChild(modal);
