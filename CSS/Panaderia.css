@@ -9,7 +9,7 @@ body {
     justify-content: center;
     align-items: center;
     min-height: 100vh;
-    background: color yellow;
+    background-color: rgb(250, 238, 129);
     background-size: cover;
     background-position: center;
 }
