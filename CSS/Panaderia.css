@@ -124,10 +124,10 @@ header .logo img {
     /*hice cMBIO ACAAA*/
     display: flex;
     gap: 25px;
-    justify-self: center;
+    justify-content: center;
     align-items: center;
     flex-wrap: wrap;
-    margin: 10px auto;
+    margin: auto;
     margin-left: 13px;
 }
 
