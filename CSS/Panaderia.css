@@ -9,14 +9,14 @@ body {
     justify-content: center;
     align-items: center;
     min-height: 100vh;
-    background: url(../Imagenes_de_la_web/FondoLimon2.0.png);
+    background: color yellow;
     background-size: cover;
     background-position: center;
 }
 
 header {
     position: fixed;
-    background-color: rgb(150, 130, 22);
+    background-color: rgb(255, 255, 255);
     top: 0;
     left: 0;
     width: 100%;
@@ -466,7 +466,7 @@ h2 {
 }
 
 .footer {
-    background-color: rgb(150, 130, 22)
+    background-color: rgb(255, 255, 255)
 }
 
 .limones-footer img {
