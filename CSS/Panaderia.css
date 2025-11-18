@@ -31,6 +31,20 @@ header .logo img {
     height: 90px;
     width: auto;
     display: block;
+    animation-duration: 2s;
+    animation-name: logo;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: 1;
+    animation-direction: normal;
+    animation-fill-mode: forwards;
+}
+
+@keyframes logo {
+    0% {}
+    100% {
+        transform: rotate(360deg);
+        border-radius: 50%;
+    }
 }
 
 .navigation {
@@ -114,10 +128,27 @@ header .logo img {
     text-align: center;
 }
 
+
+/*Animacion en el logo de la pagina*/
+
 .Lime {
     display: block;
     margin: 0 auto;
     height: 190px;
+    animation-duration: 2s;
+    animation-name: logo;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: 1;
+    animation-direction: normal;
+    animation-fill-mode: forwards;
+}
+
+@keyframes logo {
+    0% {}
+    100% {
+        transform: rotate(360deg);
+        border-radius: 50%;
+    }
 }
 
 .LoQueHacemos {
@@ -193,6 +224,9 @@ h2 {
 
 /*Arandanos*/
 
+
+/*Animacion agregada para widi*/
+
 #HistoriaSL {
     font-family: "Pacifico", cursive;
     font-weight: 400;
@@ -200,6 +234,18 @@ h2 {
     text-align: center;
     margin: 25px;
     -webkit-text-stroke: 0.2px #070707;
+    animation: Transicion 1.2s ease-out forwards;
+}
+
+@keyframes Transicion {
+    from {
+        opacity: 0;
+        transform: translateY(10px);
+    }
+    to {
+        opacity: 1;
+        transform: rotateY(0);
+    }
 }
 
 .contenedor {
