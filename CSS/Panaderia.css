@@ -40,10 +40,14 @@ header .logo img {
 }
 
 @keyframes logo {
-    0% {}
+    0% {
+        transform: translateY(-20%);
+    }
+    60% {
+        transform: translateY(10px);
+    }
     100% {
-        transform: rotate(360deg);
-        border-radius: 50%;
+        transform: translateY(0);
     }
 }
 
@@ -136,18 +140,22 @@ header .logo img {
     margin: 0 auto;
     height: 190px;
     animation-duration: 2s;
-    animation-name: logo;
+    animation-name: limon;
     animation-timing-function: ease-in-out;
     animation-iteration-count: 1;
     animation-direction: normal;
     animation-fill-mode: forwards;
 }
 
-@keyframes logo {
-    0% {}
+@keyframes limon {
+    0% {
+        transform: translateY(-20%);
+    }
+    60% {
+        transform: translateY(10px);
+    }
     100% {
-        transform: rotate(360deg);
-        border-radius: 50%;
+        transform: translateY(0);
     }
 }
 
@@ -165,10 +173,24 @@ header .logo img {
 .LoQueHacemos img {
     width: 200px;
     height: 200px;
-    border-radius: 10px;
+    border-radius: 50px;
     border: 5px solid black;
     object-fit: cover;
     transition: all 0.3s ease-out;
+    animation-duration: 2s;
+    animation-name: delicias;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: 1;
+    animation-direction: normal;
+    animation-fill-mode: forwards;
+}
+
+@keyframes delicias {
+    0% {}
+    100% {
+        transform: rotate(360deg);
+        border-radius: 50%;
+    }
 }
 
 .LoQueHacemos img:hover {
