@@ -40,6 +40,24 @@ header .logo img {
     height: 90px;
     width: auto;
     display: block;
+    animation-duration: 2s;
+    animation-name: logo;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: 1;
+    animation-direction: normal;
+    animation-fill-mode: forwards;
+}
+
+@keyframes logo {
+    0% {
+        transform: translateY(-20%);
+    }
+    60% {
+        transform: translateY(10px);
+    }
+    100% {
+        transform: translateY(0);
+    }
 }
 
 .navigation {
@@ -125,13 +143,23 @@ header .logo img {
     align-items: center;
 }
 
-.Imagen video {
+.Imagen img {
     width: 500px;
     height: auto;
     border-radius: 20px;
     border: 10px solid rgb(107, 90, 13);
     box-shadow: 0 0 25px rgb(0, 0, 0);
     object-fit: cover;
+    animation: LimonMovimiento 3s ease-in-out infinite alternate;
+}
+
+@keyframes LimonMovimiento {
+    0% {
+        transform: translateX(0);
+    }
+    100% {
+        transform: translateX(40px);
+    }
 }
 
 .wrapper {
