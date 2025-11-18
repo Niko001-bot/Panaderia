@@ -178,6 +178,37 @@ header .logo img {
     transition: height .2s ease;
 }
 
+.wrapper::before,
+.wrapper::after {
+    content: "";
+    position: absolute;
+    height: 160%;
+    width: 160%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: -1;
+}
+
+.wrapper::before {
+    background: conic-gradient(rgb(230, 188, 50) 20deg, transparent 120deg);
+    animation: rotate 4s infinite linear;
+}
+
+.wrapper::after {
+    background: #dad73d;
+    height: 95%;
+    width: 95%;
+    box-shadow: 5px 5px 15px #0008 inset;
+    border-radius: 20px;
+}
+
+@keyframes rotate {
+    100% {
+        transform: translate(-50%, -50%) rotate(-360deg);
+    }
+}
+
 .wrapper.active {
     height: 520px;
 }
